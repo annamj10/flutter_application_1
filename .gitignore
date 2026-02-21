@@ -1,0 +1,62 @@
+# Navigate to your project
+cd "C:\Users\Lenovo\Downloads\JoJo's\jojo1\jojos_project\flutter_application_1"
+
+# Initialize git
+git init
+
+# Create .gitignore file
+cat > .gitignore << 'EOF'
+# Flutter/Dart
+.dart_tool/
+.dartdoc/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/android/
+/ios/
+/linux/
+/macos/
+/windows/
+/web/
+!web/index.html
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Android
+*.apk
+*.aab
+*.keystore
+
+# iOS
+Podfile.lock
+.xcworkspace/
+xcuserdata/
+
+# Testing
+coverage/
+test/.test_cache
+EOF
+
+# Add all files
+git add .
+
+# Commit
+git commit -m "Initial commit - JoJo's app"
+
+# Add remote (replace with your actual username)
+git remote add origin https://github.com/YOUR_USERNAME/jojos_app.git
+
+# Push to main branch
+git branch -M main
+git push -u origin main
