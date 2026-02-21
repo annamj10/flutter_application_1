@@ -21,22 +21,9 @@ JoJo's is a mobile application connecting local women entrepreneurs with custome
 6. **Shopping Cart** - Add items and checkout
 7. **User Profile** - Manage account and preferences
 
-## 📸 Screenshots
-![Splash Screen](assets/screenshots/splash.png)
-![Home Screen](assets/screenshots/home.png)
-![Product Details](assets/screenshots/product.png)
-![Cart Screen](assets/screenshots/cart.png)
 
-## 🎥 Demo Video
-[Watch Demo Video](link-to-your-video)
 
-## 📊 App Flow Diagram
-![App Flow Diagram](docs/diagrams/app_flow.png)
 
-## 🏗️ Architecture Diagram
-![Architecture Diagram](docs/diagrams/architecture.png)
-
-## 📦 Installation
 
 ### Prerequisites
 - Flutter SDK (>=3.0.0)
